@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    min-width: 1300px;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    max-width: 1600px;
+    margin: 50px auto 0 auto;
+}
+#container > div {
+    width: 300px;
+    background: #fff;
+    height: 100px;
+    margin: 10px 0;
+}
+
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: darkgrey;
+    font-size: 1.3em;
+}
+
+.number {
+    text-decoration: none;
+    font-size: 2.2em;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#container a:hover{
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 10px;
+
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+.info{
+    padding-top: 50px;
+    margin-top: 50px;
+    background-image: url(../img/back.png);
+    background-size: 100%;
+    margin-bottom: 80px;
+   
+}
+
+.text{
+    
+    width: 1280px; 
+    padding: 5px;
+    margin: 0 auto; 
+    background: rgba(100, 100, 50, 0.5);
+    border-radius: 5px;
+    
+}
+
+.text p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    color: white;
+}
+
+.information{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    max-width: 1400px;
+    margin: 50px auto 0 auto;
+
+}
+
+.information > div{
+    width: 300px;
+    height: 250px;
+    margin: 10px 0;
+}
+
+.block p{
+    font-family: 'PT Sans Caption', sans-serif;
+    color: white;
+    font-size: 1.2em;
+
+}
+
+.block{
+
+}
+
+.buy{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    max-width: 1300px;
+    margin: 50px auto 0 auto;
+
+}
+
+.buy > div{
+    width: 350px;
+    height: 350px;
+    margin: 10px 0;
+    background-color: #efefef;
+    -webkit-box-shadow: 8px 11px 65px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 11px 65px -16px rgba(0,0,0,0.75);
+    box-shadow: 8px 11px 65px -16px rgba(0,0,0,0.75);
+    border-radius: 5px;
+
+}
+
+h1 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 2em;
+    color: grey;
+}
+
+.sim{
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.sim img{
+    border-radius: 25px;
+}
+
+.sim p{
+     font-family: 'PT Sans Caption', sans-serif;
+     color: black;
+     font-size: 2em;
+}
+
+.sim a{
+    text-decoration: none;
+    color: grey;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.2em;
+}
+
+.sim a:hover{
+    text-decoration: none;
+    color: darkgrey;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.2em;
+}
+
+footer {
+  flex: 0 0 auto;
+  background-color: #cacaca;
+  margin-top: 80px;
+}
+
+
